@@ -19,17 +19,16 @@ cert: false
 
 
 # Keep it running in the background
-# If you close the terminal, both code-server and cloudflared stop. To run them in the background:
 
 nohup code-server --bind-addr 127.0.0.1:8080 &
 
 
-# Automatic restart service which system starts
+# Automatic restart service while system starts
 
 # path:
 sudo nano /etc/systemd/system/code-server.service
 
-# content:
+# Content in code-server.service :
 
 [Unit]
 Description=Code Server
