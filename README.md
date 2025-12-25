@@ -10,10 +10,12 @@ curl -fsSL https://code-server.dev/install.sh | sh
 ```
 
 
-# Manual initialization of Code Server (With && Without Password) :
+# Manual initialization of Code Server (Without && With Password) :
+# Without password access:
 ```bash
 code-server --bind-addr 127.0.0.1:8080
 ```
+# With password access:
 ```bash
 code-server --bind-addr 127.0.0.1:8080 --auth password
 ```
