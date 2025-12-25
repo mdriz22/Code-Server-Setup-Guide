@@ -13,8 +13,11 @@ code-server --bind-addr 127.0.0.1:8080 --auth password
 # Content in config.yaml :
 
 bind-addr: 127.0.0.1:8080
+
 auth: password
+
 password: yourpasswordhere
+
 cert: false
 
 
